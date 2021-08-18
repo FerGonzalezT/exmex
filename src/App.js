@@ -21,8 +21,8 @@ function App() {
             <Header />
           </Grid.Column>
         </Grid.Row>
-        <Grid.Row style={{ minHeight: '57vh' }}>
-          <Grid.Column width={16}>
+        <Grid.Row className="clear-padding-y" style={{ minHeight: '57vh' }}>
+          <Grid.Column className="clear-padding-x" width={16}>
             <React.Suspense fallback={<em>Loading...</em>}>
               <Router>
                 <Dynamic path="dynamic" />

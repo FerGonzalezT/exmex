@@ -1,22 +1,32 @@
 import React from 'react';
-import { Grid, Image, Header } from 'semantic-ui-react';
+import { useRouteData } from 'react-static';
+import {
+  Grid, Header, Image,
+} from 'semantic-ui-react';
+import { Link } from './Router';
 
-function Home() {
+function Products() {
+  const { productos } = useRouteData();
   return (
     <Grid padded>
-      <Grid.Row>
-        <Grid.Column width="16" textAlign="center">
-          <Image src="https://picsum.photos/1300/500" fluid />
+      <Grid.Row centered>
+        <Grid.Column width="14">
+          <Header>
+            NUESTROS PRODUCTOS
+          </Header>
         </Grid.Column>
       </Grid.Row>
-      <Grid.Row>
-        <Grid.Column className="clear-padding-x" width="16" textAlign="center">
-          PRODUCTS Dionicio Rodriguez #900 Sector Libertad, Guadalajara Jalisco
-          Tel: 01 (33) 3617-9534 / 01 (33) 3617-8814
-        </Grid.Column>
+      <Grid.Row centered>
+        {
+          productos.map(({ id, imagenPrincipal }) => (
+            <Grid.Column key={id} width="2" textAlign="center">
+              <Image as={Link} to={`/productos/${id}`} src={imagenPrincipal} fluid />
+            </Grid.Column>
+          ))
+        }
       </Grid.Row>
     </Grid>
   );
 }
 
-export default Home;
+export default Products;

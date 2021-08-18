@@ -36,6 +36,10 @@ nav a {
   padding: 1rem;
 }
 
+.clear-padding-top {
+  padding-top: 0 !important;
+}
+
 .clear-padding-bottom {
   padding-bottom: 0 !important;
 }

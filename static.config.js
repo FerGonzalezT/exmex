@@ -21,6 +21,9 @@ export default {
       {
         path: 'productos',
         template: 'src/components/Products',
+        getData: async () => ({
+          productos: data.productos,
+        }),
         children: data.productos.map((producto) => ({
           path: `${producto.id}`,
           template: 'src/components/ProductDetail',
