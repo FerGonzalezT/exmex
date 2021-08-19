@@ -14,7 +14,7 @@
   "productionSourceMaps": false,
   "silent": false,
   "entry": "index.js",
-  "siteRoot": "http://fergonzalezt.github.io",
+  "siteRoot": "https://fergonzalezt.github.io",
   "basePath": "exmex",
   "paths": {
     "ROOT": "/home/hector/Documentos/proyectos/web/git/exmex",
@@ -36,7 +36,7 @@
     "/home/hector/Documentos/proyectos/web/git/exmex/node_modules/react-static-plugin-sitemap/dist/node.api.js",
     "/home/hector/Documentos/proyectos/web/git/exmex"
   ],
-  "publicPath": "http://fergonzalezt.github.io/exmex/",
+  "publicPath": "https://fergonzalezt.github.io/exmex/",
   "assetsPath": "",
   "extractCssChunks": false,
   "inlineCss": false,
