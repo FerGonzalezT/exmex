@@ -7,6 +7,9 @@ import data from './src/data';
 export default {
   siteRoot: 'http://fergonzalezt.github.io',
   basePath: 'exmex',
+  paths: {
+    dist: 'build',
+  },
   getSiteData: async ({ dev }) => ({
     title: 'EXMEX',
   }),

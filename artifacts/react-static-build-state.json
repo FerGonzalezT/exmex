@@ -1,0 +1,56 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "siteRoot": "http://fergonzalezt.github.io",
+  "basePath": "exmex",
+  "plugins": [
+    "/home/hector/Documentos/proyectos/web/git/exmex/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/hector/Documentos/proyectos/web/git/exmex/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/hector/Documentos/proyectos/web/git/exmex"
+  ],
+  "paths": {
+    "ROOT": "/home/hector/Documentos/proyectos/web/git/exmex",
+    "SRC": "/home/hector/Documentos/proyectos/web/git/exmex/src",
+    "DIST": "/home/hector/Documentos/proyectos/web/git/exmex/dist",
+    "ASSETS": "/home/hector/Documentos/proyectos/web/git/exmex/dist",
+    "PLUGINS": "/home/hector/Documentos/proyectos/web/git/exmex/plugins",
+    "TEMP": "/home/hector/Documentos/proyectos/web/git/exmex/tmp",
+    "ARTIFACTS": "/home/hector/Documentos/proyectos/web/git/exmex/artifacts",
+    "PUBLIC": "/home/hector/Documentos/proyectos/web/git/exmex/public",
+    "NODE_MODULES": "/home/hector/Documentos/proyectos/web/git/exmex/node_modules",
+    "EXCLUDE_MODULES": "/home/hector/Documentos/proyectos/web/git/exmex/node_modules",
+    "PACKAGE": "/home/hector/Documentos/proyectos/web/git/exmex/package.json",
+    "HTML_TEMPLATE": "/home/hector/Documentos/proyectos/web/git/exmex/dist/index.html",
+    "STATIC_DATA": "/home/hector/Documentos/proyectos/web/git/exmex/dist/staticData"
+  },
+  "publicPath": "http://fergonzalezt.github.io/exmex/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
