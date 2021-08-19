@@ -16,16 +16,11 @@
   "entry": "index.js",
   "siteRoot": "http://fergonzalezt.github.io",
   "basePath": "exmex",
-  "plugins": [
-    "/home/hector/Documentos/proyectos/web/git/exmex/node_modules/react-static-plugin-reach-router/browser.api.js",
-    "/home/hector/Documentos/proyectos/web/git/exmex/node_modules/react-static-plugin-sitemap/dist/node.api.js",
-    "/home/hector/Documentos/proyectos/web/git/exmex"
-  ],
   "paths": {
     "ROOT": "/home/hector/Documentos/proyectos/web/git/exmex",
     "SRC": "/home/hector/Documentos/proyectos/web/git/exmex/src",
-    "DIST": "/home/hector/Documentos/proyectos/web/git/exmex/dist",
-    "ASSETS": "/home/hector/Documentos/proyectos/web/git/exmex/dist",
+    "DIST": "/home/hector/Documentos/proyectos/web/git/exmex/build",
+    "ASSETS": "/home/hector/Documentos/proyectos/web/git/exmex/build",
     "PLUGINS": "/home/hector/Documentos/proyectos/web/git/exmex/plugins",
     "TEMP": "/home/hector/Documentos/proyectos/web/git/exmex/tmp",
     "ARTIFACTS": "/home/hector/Documentos/proyectos/web/git/exmex/artifacts",
@@ -33,9 +28,14 @@
     "NODE_MODULES": "/home/hector/Documentos/proyectos/web/git/exmex/node_modules",
     "EXCLUDE_MODULES": "/home/hector/Documentos/proyectos/web/git/exmex/node_modules",
     "PACKAGE": "/home/hector/Documentos/proyectos/web/git/exmex/package.json",
-    "HTML_TEMPLATE": "/home/hector/Documentos/proyectos/web/git/exmex/dist/index.html",
-    "STATIC_DATA": "/home/hector/Documentos/proyectos/web/git/exmex/dist/staticData"
+    "HTML_TEMPLATE": "/home/hector/Documentos/proyectos/web/git/exmex/build/index.html",
+    "STATIC_DATA": "/home/hector/Documentos/proyectos/web/git/exmex/build/staticData"
   },
+  "plugins": [
+    "/home/hector/Documentos/proyectos/web/git/exmex/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/hector/Documentos/proyectos/web/git/exmex/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/hector/Documentos/proyectos/web/git/exmex"
+  ],
   "publicPath": "http://fergonzalezt.github.io/exmex/",
   "assetsPath": "",
   "extractCssChunks": false,
