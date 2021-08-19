@@ -5,7 +5,7 @@ import React from 'react';
 import data from './src/data';
 
 export default {
-  siteRoot: 'http://fergonzalezt.github.io',
+  siteRoot: 'https://fergonzalezt.github.io',
   basePath: 'exmex',
   paths: {
     dist: 'build',

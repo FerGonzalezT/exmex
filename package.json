@@ -1,6 +1,6 @@
 {
   "name": "react-static-example-basic",
-  "homepage": "http://fergonzalezt.github.io/exmex",
+  "homepage": "https://fergonzalezt.github.io/exmex",
   "private": true,
   "scripts": {
     "start": "react-static start",
