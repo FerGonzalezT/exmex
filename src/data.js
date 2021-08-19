@@ -21,8 +21,8 @@ export default {
         },
       ],
       imagenPrincipal: 'https://picsum.photos/200/320',
-      video: 'https://youtu.be/MRgYAyv7sbo',
-      imagenes: ['https://picsum.photos/400/300', 'https://picsum.photos/400/300', 'https://picsum.photos/400/300'],
+      video: 'https://www.youtube.com/embed/MRgYAyv7sbo',
+      imagenes: ['https://picsum.photos/405/300', 'https://picsum.photos/410/300', 'https://picsum.photos/415/300'],
     },
     {
       id: 2,
@@ -46,7 +46,7 @@ export default {
       ],
       imagenPrincipal: 'https://picsum.photos/200/320',
       video: '',
-      imagenes: ['https://picsum.photos/400/300', 'https://picsum.photos/400/300', 'https://picsum.photos/400/300'],
+      imagenes: ['https://picsum.photos/405/300', 'https://picsum.photos/410/300', 'https://picsum.photos/415/300'],
     },
   ],
 };

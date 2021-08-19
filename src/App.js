@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { Root, Routes, addPrefetchExcludes } from 'react-static';
-import { Grid } from 'semantic-ui-react';
+import { Grid, Placeholder } from 'semantic-ui-react';
 import { Link, Router } from './components/Router';
 import Dynamic from './containers/Dynamic';
 import Header from './components/Header';
@@ -23,7 +23,7 @@ function App() {
         </Grid.Row>
         <Grid.Row className="clear-padding-y" style={{ minHeight: '57vh' }}>
           <Grid.Column className="clear-padding-x" width={16}>
-            <React.Suspense fallback={<em>Loading...</em>}>
+            <React.Suspense fallback={<Placeholder fluid style={{ minHeight: '57vh' }} />}>
               <Router>
                 <Dynamic path="dynamic" />
                 <Routes path="*" />

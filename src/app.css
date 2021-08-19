@@ -53,3 +53,21 @@ nav a {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
+
+.clear-margin-top {
+  margin-top: 0 !important;
+}
+
+.clear-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.clear-margin-x {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.clear-margin-y {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}

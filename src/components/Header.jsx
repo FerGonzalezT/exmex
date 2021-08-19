@@ -6,7 +6,12 @@ function Header() {
   return (
     <Grid className="clear-padding-x" padded>
       <Grid.Row style={{ backgroundImage: 'url(images/textura_metal.jpg)' }}>
-        <Grid.Column className="clear-padding-x" width="16" textAlign="center">
+        <Grid.Column
+          className="clear-padding-x"
+          width="16"
+          textAlign="center"
+          style={{ minHeight: '2rem' }}
+        >
           <Image src="images/logo.png" size="large" centered wrapped />
         </Grid.Column>
       </Grid.Row>

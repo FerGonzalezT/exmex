@@ -1,14 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
-  Grid, Image, Icon, Embed,
+  Grid, Image, Icon, Embed, Placeholder,
 } from 'semantic-ui-react';
 
 function Contact() {
+  const [loading, setLoading] = useState(true);
   return (
     <Grid padded>
       <Grid.Row className="clear-padding-y">
         <Grid.Column className="clear-padding-x" width="16" textAlign="center">
-          <Image src="https://picsum.photos/1300/100" fluid />
+          {
+            loading
+            && (
+              <Placeholder fluid style={{ height: 100 }}>
+                <Placeholder.Image />
+              </Placeholder>
+            )
+          }
+          <Image
+            src="https://picsum.photos/1300/100"
+            fluid
+            onLoad={() => setLoading(false)}
+          />
         </Grid.Column>
       </Grid.Row>
       <Grid.Row centered>
