@@ -1,18 +1,20 @@
 import React from 'react';
 import { Grid, Image } from 'semantic-ui-react';
-import { Link } from './Router';
+import { Link } from 'gatsby';
+import Logo from '../images/logo.png';
+import Background from '../images/textura_metal.jpg';
 
 function Header() {
   return (
     <Grid className="clear-padding-x" padded>
-      <Grid.Row style={{ backgroundImage: 'url(images/textura_metal.jpg)' }}>
+      <Grid.Row style={{ backgroundImage: `url(${Background})` }}>
         <Grid.Column
           className="clear-padding-x"
           width="16"
           textAlign="center"
           style={{ minHeight: '2rem' }}
         >
-          <Image src="images/logo.png" size="large" centered wrapped />
+          <Image src={Logo} size="large" centered wrapped />
         </Grid.Column>
       </Grid.Row>
       <Grid.Row className="clear-padding-y">
