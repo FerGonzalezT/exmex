@@ -43,14 +43,22 @@ function ImageViewer({ images }) {
   return (
     <Grid padded>
       <Grid.Row centered>
-        <Grid.Column width="3">
+        <Grid.Column
+          computer="3"
+          tablet="5"
+          mobile="3"
+        >
           {
             images.map((image) => (
               <ProductImage image={image} setCurrentImage={setCurrentImage} />
             ))
           }
         </Grid.Column>
-        <Grid.Column width="11">
+        <Grid.Column
+          computer="11"
+          tablet="11"
+          mobile="13"
+        >
           {
             loading
             && (

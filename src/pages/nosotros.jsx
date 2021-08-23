@@ -32,7 +32,13 @@ function About() {
           </Grid.Column>
         </Grid.Row>
         <Grid.Row centered>
-          <Grid.Column className="clear-padding-x" width="10" textAlign="justified">
+          <Grid.Column
+            className="clear-padding-x"
+            computer="10"
+            tablet="12"
+            mobile="15"
+            textAlign="justified"
+          >
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non nisl mauris. Vivamus sollicitudin dictum nisl, vel iaculis enim semper ut. Aenean sit amet lacus at quam sollicitudin bibendum. Sed vitae consequat neque. Nunc vulputate efficitur quam vitae porttitor. Nullam et purus eu lectus auctor vulputate a eu urna. Praesent auctor pellentesque gravida. Phasellus nec metus non leo dapibus commodo. Nunc dignissim auctor leo, hendrerit egestas dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec varius tortor ex, ac efficitur nisl feugiat et. Nam vitae massa ullamcorper, porttitor justo eget, viverra ante. Nunc elit est, tincidunt ut elementum blandit, egestas ac urna. Maecenas justo mi, laoreet sed viverra vitae, commodo sit amet est. Proin in metus quis ex fringilla iaculis non nec turpis.
             </p>

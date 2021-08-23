@@ -9,7 +9,13 @@ import Layout from './Layout';
 function ProductImage({ id, imagenPrincipal }) {
   const [loading, setLoading] = useState(true);
   return (
-    <Grid.Column key={id} width="2" textAlign="center">
+    <Grid.Column
+      key={id}
+      computer="2"
+      tablet="5"
+      mobile="7"
+      textAlign="center"
+    >
       {
         loading
         && (
@@ -40,7 +46,11 @@ function Products({ pageContext }) {
     <Layout>
       <Grid padded>
         <Grid.Row centered>
-          <Grid.Column width="14">
+          <Grid.Column
+            computer="14"
+            tablet="15"
+            mobile="15"
+          >
             <Header>
               NUESTROS PRODUCTOS
             </Header>

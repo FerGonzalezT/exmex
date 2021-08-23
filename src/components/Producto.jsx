@@ -15,25 +15,46 @@ function ProductDetail({ pageContext }) {
     <Layout>
       <Grid padded>
         <Grid.Row centered>
-          <Grid.Column width="7">
+          <Grid.Column
+            computer="7"
+            tablet="15"
+            mobile="15"
+          >
             <ImageViewer images={imagenes} />
           </Grid.Column>
-          <Grid.Column width="9">
+          <Grid.Column
+            computer="9"
+            tablet="15"
+            mobile="15"
+          >
             <Grid>
               <Grid.Row>
-                <Grid.Column width="16">
+                <Grid.Column
+                  computer="16"
+                  tablet="15"
+                  mobile="15"
+                >
                   <Header>{nombreProducto}</Header>
                 </Grid.Column>
               </Grid.Row>
               <Grid.Row>
-                <Grid.Column width="8" textAlign="justified">
+                <Grid.Column
+                  computer="8"
+                  tablet="15"
+                  mobile="15"
+                  textAlign="justified"
+                >
                   {
                     descripcion.map((description) => (
                       <p>{description}</p>
                     ))
                   }
                 </Grid.Column>
-                <Grid.Column width="7">
+                <Grid.Column
+                  computer="7"
+                  tablet="15"
+                  mobile="15"
+                >
                   {
                     tipoEspecificacion.map(({ titulo, especificaciones }) => (
                       <div style={{ marginBottom: '1rem' }}>

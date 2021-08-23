@@ -27,13 +27,25 @@ function Contact() {
           </Grid.Column>
         </Grid.Row>
         <Grid.Row centered>
-          <Grid.Column className="clear-padding-x" width="10" textAlign="center">
+          <Grid.Column
+            className="clear-padding-x"
+            computer="10"
+            tablet="12"
+            mobile="15"
+            textAlign="center"
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Phasellus eget semper odio. Proin mauris est, tempor at fringilla sed, porta et ante.
           </Grid.Column>
         </Grid.Row>
         <Grid.Row centered style={{ paddingTop: '1rem' }}>
-          <Grid.Column verticalAlign="middle" width="5" textAlign="center">
+          <Grid.Column
+            verticalAlign="middle"
+            computer="5"
+            tablet="15"
+            mobile="15"
+            textAlign="center"
+          >
             <Embed
               placeholder=""
               active
@@ -44,8 +56,20 @@ function Contact() {
               }}
             />
           </Grid.Column>
-          <Grid.Column width="1" />
-          <Grid.Column style={{ borderLeft: '3px solid #94dcf6', padding: '0.5rem' }} textAlign="left" verticalAlign="middle" width="6">
+          <Grid.Column
+            computer="1"
+            tablet="16"
+            mobile="16"
+          />
+          <Grid.Column
+            style={{ borderLeft: '3px solid #94dcf6', padding: '0.5rem' }}
+            textAlign="left"
+            verticalAlign="middle"
+            width="6"
+            computer="6"
+            tablet="15"
+            mobile="15"
+          >
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus eget semper odio.

@@ -33,8 +33,15 @@ function Home() {
           </Grid.Column>
         </Grid.Row>
         <Grid.Row centered style={{ paddingTop: '2rem' }}>
-          <Grid.Column style={{ color: 'blue' }} className="clear-padding-x" width="10" textAlign="center">
-            <Header color="blue" style={{ paddingBottom: '0.5rem' }}>
+          <Grid.Column
+            style={{ color: 'blue' }}
+            className="clear-padding-x"
+            computer="10"
+            tablet="12"
+            mobile="15"
+            textAlign="center"
+          >
+            <Header style={{ paddingBottom: '0.5rem' }}>
               40 AÑOS FABRICANDO CALIDAD Y PRESTIGIO
             </Header>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
