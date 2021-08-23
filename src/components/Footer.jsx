@@ -1,9 +1,10 @@
 import React from 'react';
 import { Grid, Icon } from 'semantic-ui-react';
+import Background from '../images/textura_metal.jpg';
 
 function Footer() {
   return (
-    <Grid style={{ backgroundImage: 'url(images/textura_metal.jpg)' }} className="clear-padding-x" padded>
+    <Grid style={{ backgroundImage: `url(${Background})` }} className="clear-padding-x" padded>
       <Grid.Row className="clear-padding-bottom">
         <Grid.Column className="clear-padding-x" width="16" textAlign="center">
           <Icon link name="whatsapp" size="large" />
