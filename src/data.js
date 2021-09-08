@@ -1,3 +1,5 @@
+const prefixStatic = '/exmex';
+// const prefixStatic = '';
 const data = {
   productos: [
     {
@@ -29,9 +31,9 @@ const data = {
           ],
         },
       ],
-      imagenPrincipal: '/Producto1-principal.jpg',
+      imagenPrincipal: `${prefixStatic}/Producto1-principal.jpg`,
       video: '',
-      imagenes: ['/Producto1-1.jpg', '/Producto1-2.jpg', '/Producto1-3.jpg'],
+      imagenes: [`${prefixStatic}/Producto1-1.jpg`, `${prefixStatic}/Producto1-2.jpg`, `${prefixStatic}/Producto1-3.jpg`],
     },
     {
       id: 2,
@@ -62,9 +64,9 @@ const data = {
           ],
         },
       ],
-      imagenPrincipal: '/Producto2-principal.jpg',
+      imagenPrincipal: `${prefixStatic}/Producto2-principal.jpg`,
       video: '',
-      imagenes: ['/Producto2-1.jpg', '/Producto2-2.jpg'],
+      imagenes: [`${prefixStatic}/Producto2-1.jpg`, `${prefixStatic}/Producto2-2.jpg`],
     },
     {
       id: 3,
@@ -96,9 +98,9 @@ const data = {
           ],
         },
       ],
-      imagenPrincipal: '/Producto3-principal.jpg',
+      imagenPrincipal: `${prefixStatic}/Producto3-principal.jpg`,
       video: '',
-      imagenes: ['/Producto3-1.jpg', '/Producto3-2.jpg', '/Producto3-3.jpg', '/Producto3-4.jpg'],
+      imagenes: [`${prefixStatic}/Producto3-1.jpg`, `${prefixStatic}/Producto3-2.jpg`, `${prefixStatic}/Producto3-3.jpg`, `${prefixStatic}/Producto3-4.jpg`],
     },
     {
       id: 4,
@@ -131,9 +133,9 @@ const data = {
           ],
         },
       ],
-      imagenPrincipal: '/Producto4-principal.jpg',
+      imagenPrincipal: `${prefixStatic}/Producto4-principal.jpg`,
       video: '',
-      imagenes: ['/Producto4-1.jpg'],
+      imagenes: [`${prefixStatic}/Producto4-1.jpg`],
     },
     {
       id: 5,
@@ -166,9 +168,9 @@ const data = {
           ],
         },
       ],
-      imagenPrincipal: '/Producto5-principal.jpg',
+      imagenPrincipal: `${prefixStatic}/Producto5-principal.jpg`,
       video: '',
-      imagenes: ['/Producto5-1.jpg', '/Producto5-2.jpg'],
+      imagenes: [`${prefixStatic}/Producto5-1.jpg`, `${prefixStatic}/Producto5-2.jpg`],
     },
     {
       id: 6,
@@ -206,9 +208,9 @@ const data = {
           ],
         },
       ],
-      imagenPrincipal: '/Producto6-principal.jpg',
+      imagenPrincipal: `${prefixStatic}/Producto6-principal.jpg`,
       video: '',
-      imagenes: ['/Producto6-1.jpg', '/Producto6-2.jpg'],
+      imagenes: [`${prefixStatic}/Producto6-1.jpg`, `${prefixStatic}/Producto6-2.jpg`],
     },
     {
       id: 7,
@@ -248,9 +250,9 @@ const data = {
           ],
         },
       ],
-      imagenPrincipal: '/Producto7-principal.jpg',
+      imagenPrincipal: `${prefixStatic}/Producto7-principal.jpg`,
       video: '',
-      imagenes: ['/logo.png'],
+      imagenes: [`${prefixStatic}/logo.png`],
     },
     {
       id: 8,
@@ -290,9 +292,9 @@ const data = {
           ],
         },
       ],
-      imagenPrincipal: '/Producto8-principal.jpg',
+      imagenPrincipal: `${prefixStatic}/Producto8-principal.jpg`,
       video: '',
-      imagenes: ['/Producto8-1.jpg', '/Producto8-2.jpg', '/Producto8-3.jpg', '/Producto8-4.jpg'],
+      imagenes: [`${prefixStatic}/Producto8-1.jpg`, `${prefixStatic}/Producto8-2.jpg`, `${prefixStatic}/Producto8-3.jpg`, `${prefixStatic}/Producto8-4.jpg`],
     },
     {
       id: 9,
@@ -325,9 +327,9 @@ const data = {
           ],
         },
       ],
-      imagenPrincipal: '/logo.png',
+      imagenPrincipal: `${prefixStatic}/logo.png`,
       video: '',
-      imagenes: ['/Producto9-1.jpg', '/Producto9-2.jpg', '/Producto9-3.jpg', '/Producto9-4.jpg', '/Producto9-5.jpg'],
+      imagenes: [`${prefixStatic}/Producto9-1.jpg`, `${prefixStatic}/Producto9-2.jpg`, `${prefixStatic}/Producto9-3.jpg`, `${prefixStatic}/Producto9-4.jpg`, `${prefixStatic}/Producto9-5.jpg`],
     },
   ],
 };
