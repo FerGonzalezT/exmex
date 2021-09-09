@@ -7,7 +7,7 @@ import Background from '../images/textura_metal.jpg';
 function Header() {
   return (
     <Grid className="clear-padding-x" padded>
-      <Grid.Row style={{ backgroundImage: `url(${Background})` }}>
+      <Grid.Row style={{ backgroundImage: `url(${Background})`, backgroundSize: '100%' }}>
         <Grid.Column
           className="clear-padding-x"
           width="16"

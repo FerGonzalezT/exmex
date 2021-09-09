@@ -8,7 +8,7 @@ import Youtube from '../images/youtube.png';
 
 function Footer() {
   return (
-    <Grid style={{ backgroundImage: `url(${Background})` }} className="clear-padding-x" padded>
+    <Grid style={{ backgroundImage: `url(${Background})`, backgroundSize: '100%' }} className="clear-padding-x" padded>
       <Grid.Row className="clear-padding-bottom" centered>
         <Grid.Column className="clear-padding-x" width="16" textAlign="center">
           <Image
