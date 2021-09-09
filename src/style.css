@@ -5,20 +5,12 @@
 body {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
     Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
 }
 
 a {
   text-decoration: none;
   color: #108db8;
   font-weight: bold;
-}
-
-img {
-  max-width: 100%;
 }
 
 nav {
@@ -70,4 +62,21 @@ nav a {
 .clear-margin-y {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
+}
+
+.front-grid {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  margin: 0;
+}
+
+.cover-background {
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
 }

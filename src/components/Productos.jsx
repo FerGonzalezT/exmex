@@ -51,7 +51,7 @@ function Products({ pageContext }) {
             tablet="15"
             mobile="15"
           >
-            <Header>
+            <Header size="huge">
               NUESTROS PRODUCTOS
             </Header>
           </Grid.Column>

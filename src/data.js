@@ -1,5 +1,5 @@
-const prefixStatic = '/exmex';
-// const prefixStatic = '';
+// const prefixStatic = '/exmex';
+const prefixStatic = '';
 const data = {
   productos: [
     {
@@ -32,6 +32,7 @@ const data = {
         },
       ],
       imagenPrincipal: `${prefixStatic}/Producto1-principal.jpg`,
+      imagenFondo: `${prefixStatic}/Producto1-fondo.png`,
       video: '',
       imagenes: [`${prefixStatic}/Producto1-1.jpg`, `${prefixStatic}/Producto1-2.jpg`, `${prefixStatic}/Producto1-3.jpg`],
     },
@@ -65,6 +66,7 @@ const data = {
         },
       ],
       imagenPrincipal: `${prefixStatic}/Producto2-principal.jpg`,
+      imagenFondo: `${prefixStatic}/Producto2-fondo.png`,
       video: '',
       imagenes: [`${prefixStatic}/Producto2-1.jpg`, `${prefixStatic}/Producto2-2.jpg`],
     },
@@ -99,6 +101,7 @@ const data = {
         },
       ],
       imagenPrincipal: `${prefixStatic}/Producto3-principal.jpg`,
+      imagenFondo: `${prefixStatic}/Producto3-fondo.png`,
       video: '',
       imagenes: [`${prefixStatic}/Producto3-1.jpg`, `${prefixStatic}/Producto3-2.jpg`, `${prefixStatic}/Producto3-3.jpg`, `${prefixStatic}/Producto3-4.jpg`],
     },
@@ -134,6 +137,7 @@ const data = {
         },
       ],
       imagenPrincipal: `${prefixStatic}/Producto4-principal.jpg`,
+      imagenFondo: `${prefixStatic}/Producto4-fondo.png`,
       video: '',
       imagenes: [`${prefixStatic}/Producto4-1.jpg`],
     },
@@ -169,6 +173,7 @@ const data = {
         },
       ],
       imagenPrincipal: `${prefixStatic}/Producto5-principal.jpg`,
+      imagenFondo: `${prefixStatic}/Producto5-fondo.png`,
       video: '',
       imagenes: [`${prefixStatic}/Producto5-1.jpg`, `${prefixStatic}/Producto5-2.jpg`],
     },
@@ -209,53 +214,12 @@ const data = {
         },
       ],
       imagenPrincipal: `${prefixStatic}/Producto6-principal.jpg`,
+      imagenFondo: `${prefixStatic}/Producto6-fondo.png`,
       video: '',
       imagenes: [`${prefixStatic}/Producto6-1.jpg`, `${prefixStatic}/Producto6-2.jpg`],
     },
     {
       id: 7,
-      producto: 'TRITURADOR PARA HIELO D-4',
-      descripcion: [
-        'Esta máquina con su mayor tamaño cuenta con un diámetro de alimentación de 6 pulgadas aumentando su capacidad de producción, cuenta con doble navaja de corte, está diseñada y fabricada con materiales resistentes a la corrosión.',
-        'Este producto fabricado en acero inoxidable que puede triturar la cantidad de hielo que usted necesite de forma higiénica, utilizando como depósito su caja de almacenamiento con la sanidad y seguridad que se requiere.',
-        'Su gruesa navaja con filo rectificado en acero inoxidable calibre 12, hacen que el hielo salga uniformemente para utilizarlo en múltiples usos del hielo: para frape, nieve, jugos, licuados, carne, pescado y mariscos.',
-      ],
-      tipoEspecificacion: [
-        {
-          titulo: 'Especificaciones del triturador',
-          especificaciones: [
-            { especificacion: 'ALTURA', valor: '42 cm' },
-            { especificacion: 'ANCHO', valor: '51 cm' },
-            { especificacion: 'FONDO', valor: '36 cm' },
-          ],
-        },
-        {
-          titulo: 'Dimensión Total',
-          especificaciones: [
-            { especificacion: 'ALTO', valor: '66 cm' },
-            { especificacion: 'ANCHO', valor: '67 cm' },
-            { especificacion: 'FONDO', valor: '36 cm' },
-            { especificacion: 'PESO', valor: '16 kg' },
-          ],
-        },
-        {
-          titulo: 'Especificaciones del motor',
-          especificaciones: [
-            { especificacion: 'CLASE', valor: 'Tiempo Continuo' },
-            { especificacion: 'RPM', valor: '1725' },
-            { especificacion: 'VOLTS', valor: '127 CA' },
-            { especificacion: 'CP', valor: '1/4' },
-            { especificacion: 'HZ', valor: '60' },
-            { especificacion: 'FACES', valor: '1' },
-          ],
-        },
-      ],
-      imagenPrincipal: `${prefixStatic}/Producto7-principal.jpg`,
-      video: '',
-      imagenes: [`${prefixStatic}/logo.png`],
-    },
-    {
-      id: 8,
       producto: 'TRITURADOR PARA HIELO D-6',
       descripcion: [
         'Esta máquina con su mayor tamaño cuenta con un diámetro de alimentación de 6 pulgadas aumentando su capacidad de producción, cuenta con doble navaja de corte, está diseñada y fabricada con materiales resistentes a la corrosión.',
@@ -268,7 +232,7 @@ const data = {
           especificaciones: [
             { especificacion: 'ALTURA', valor: '30 cm' },
             { especificacion: 'ANCHO', valor: '48 cm' },
-            { especificacion: 'FONDO', valor: '28 cm' },
+            { especificacion: 'FONDO', valor: '28 Kg' },
           ],
         },
         {
@@ -292,12 +256,13 @@ const data = {
           ],
         },
       ],
-      imagenPrincipal: `${prefixStatic}/Producto8-principal.jpg`,
+      imagenPrincipal: `${prefixStatic}/Producto7-principal.jpg`,
+      imagenFondo: `${prefixStatic}/Producto7-fondo.png`,
       video: '',
-      imagenes: [`${prefixStatic}/Producto8-1.jpg`, `${prefixStatic}/Producto8-2.jpg`, `${prefixStatic}/Producto8-3.jpg`, `${prefixStatic}/Producto8-4.jpg`],
+      imagenes: [`${prefixStatic}/Producto7-1.jpg`, `${prefixStatic}/Producto7-2.jpg`, `${prefixStatic}/Producto7-3.jpg`, `${prefixStatic}/Producto7-4.jpg`],
     },
     {
-      id: 9,
+      id: 8,
       producto: 'EXTRACTOR PARA JUGO DE ZANAHORIA Y LEGUMBRES EN ACERO INOXIDABLE',
       descripcion: [
         'Extractor para jugo de zanahoria y legumbres cuenta con su filtro colador en acero inoxidable grado alimenticio el cual brinda una capacidad de producción más de 50 lts/hr.',
@@ -327,9 +292,10 @@ const data = {
           ],
         },
       ],
-      imagenPrincipal: `${prefixStatic}/logo.png`,
+      imagenPrincipal: `${prefixStatic}/Producto8-principal.jpg`,
+      imagenFondo: `${prefixStatic}/Producto8-fondo.png`,
       video: '',
-      imagenes: [`${prefixStatic}/Producto9-1.jpg`, `${prefixStatic}/Producto9-2.jpg`, `${prefixStatic}/Producto9-3.jpg`, `${prefixStatic}/Producto9-4.jpg`, `${prefixStatic}/Producto9-5.jpg`],
+      imagenes: [`${prefixStatic}/Producto8-1.jpg`, `${prefixStatic}/Producto8-2.jpg`, `${prefixStatic}/Producto8-3.jpg`, `${prefixStatic}/Producto8-4.jpg`, `${prefixStatic}/Producto8-5.jpg`],
     },
   ],
 };

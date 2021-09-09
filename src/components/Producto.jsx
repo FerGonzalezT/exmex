@@ -9,11 +9,11 @@ import Layout from './Layout';
 function ProductDetail({ pageContext }) {
   const { producto } = pageContext;
   const {
-    producto: nombreProducto, descripcion, tipoEspecificacion, video, imagenes,
+    producto: nombreProducto, descripcion, tipoEspecificacion, video, imagenes, imagenFondo,
   } = producto;
   return (
     <Layout>
-      <Grid padded>
+      <Grid className="cover-background" style={{ backgroundImage: `url(${imagenFondo})` }} padded>
         <Grid.Row centered>
           <Grid.Column
             computer="7"
@@ -98,6 +98,7 @@ ProductDetail.propTypes = {
       producto: PropTypes.string,
       tipoEspecificacion: PropTypes.arrayOf(PropTypes.object),
       video: PropTypes.string,
+      imagenFondo: PropTypes.string,
     }),
   }).isRequired,
 };
