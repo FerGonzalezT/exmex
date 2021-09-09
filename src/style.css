@@ -2,9 +2,19 @@
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
-    Helvetica, Arial, 'Lucida Grande', sans-serif;
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url(./fonts/Avenir\ Roman.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Avenir-Light';
+  src: local('Avenir-Light'), url(./fonts/Avenir-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir-Medium';
+  src: local('Avenir-Medium'), url(./fonts/Avenir-Medium.ttf) format('truetype');
 }
 
 a {
