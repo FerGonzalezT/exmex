@@ -7,8 +7,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import Layout from '../components/Layout';
 
-// const prefixStatic = '/exmex';
-const prefixStatic = '';
+const prefixStatic = '/exmex';
+// const prefixStatic = '';
 
 const data = [
   {
