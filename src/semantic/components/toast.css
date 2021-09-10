@@ -520,7 +520,7 @@
 -------------- */
 
 .ui.primary.toast {
-  background-color: #2185D0;
+  background-color: #002ED8;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.primary.toast,
@@ -592,7 +592,7 @@
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.blue.toast {
-  background-color: #2185D0;
+  background-color: #002ED8;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.blue.toast,

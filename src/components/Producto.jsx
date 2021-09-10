@@ -13,7 +13,7 @@ function ProductDetail({ pageContext }) {
   } = producto;
   return (
     <Layout>
-      <Grid className="cover-background" style={{ backgroundImage: `url(${imagenFondo})` }} padded>
+      <Grid className="cover-background" style={{ backgroundImage: `url(${imagenFondo})`, backgroundSize: '100%' }} padded>
         <Grid.Row centered>
           <Grid.Column
             computer="7"
@@ -61,7 +61,7 @@ function ProductDetail({ pageContext }) {
                         <Header className="clear-margin-bottom" size="tiny">{titulo}</Header>
                         {
                           especificaciones.map(({ especificacion, valor }) => (
-                            <p className="clear-margin-bottom">{`${especificacion}: ${valor}`}</p>
+                            <p className="clear-margin-y">{`${especificacion}: ${valor}`}</p>
                           ))
                         }
                       </div>

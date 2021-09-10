@@ -31,7 +31,7 @@
 /* Default Styling */
 .ui.accordion .title:not(.ui) {
   padding: 0.5em 0;
-  font-family: 'Avenir-Medium', 'Avenir-Light', 'Avenir', sans-serif;
+  font-family: 'Montserrat', 'Avenir-Light', 'Avenir', sans-serif;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.87);
 }

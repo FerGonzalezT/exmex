@@ -3,49 +3,91 @@ import '../semantic/semantic.min.css';
 import {
   Grid, Image, Header,
 } from 'semantic-ui-react';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
 import Layout from '../components/Layout';
-import backgroundImage from '../images/FONDO PAGINA PRINCIPAL.jpg';
-import product1 from '../images/producto_home_1.jpg';
+
+// const prefixStatic = '/exmex';
+const prefixStatic = '';
+
+const data = [
+  {
+    id: 1,
+    image: `${prefixStatic}/producto_home_1.jpg`,
+  },
+  {
+    id: 2,
+    image: `${prefixStatic}/producto_home_2.jpg`,
+  },
+  {
+    id: 3,
+    image: `${prefixStatic}/producto_home_3.jpg`,
+  },
+  {
+    id: 4,
+    image: `${prefixStatic}/producto_home_4.jpg`,
+  },
+  {
+    id: 5,
+    image: `${prefixStatic}/producto_home_5_6.jpg`,
+  },
+  {
+    id: 6,
+    image: `${prefixStatic}/producto_home_7.jpg`,
+  },
+  {
+    id: 7,
+    image: `${prefixStatic}/producto_home_8.jpg`,
+  },
+];
 
 function Home() {
   // const [loading, setLoading] = useState(true);
   return (
     <Layout>
       <Grid padded>
-        <Grid.Row className="clear-padding-top">
+        <Grid.Row
+          centered
+          className="clear-padding-top"
+        >
           <Grid.Column
             className="clear-padding-x"
             width="16"
             textAlign="center"
             verticalAlign="middle"
           >
-            <Image
-              src={backgroundImage}
-              fluid
-            />
-            <Grid className="front-grid" padded style={{ height: '100%' }}>
-              <Grid.Row className="clear-padding-y" centered style={{ height: '100%' }}>
-                <Grid.Column
-                  className="clear-padding-x"
-                  computer="3"
-                  tablet="3"
-                  mobile="3"
-                  textAlign="center"
-                  verticalAlign="middle"
-                >
-                  <Image
-                    fluid
-                    src={product1}
-                  />
-                </Grid.Column>
-              </Grid.Row>
-            </Grid>
+            <Carousel
+              autoPlay
+              infiniteLoop
+              showArrows={false}
+              showStatus={false}
+              showIndicators={false}
+              showThumbs={false}
+              useKeyboardArrows
+              stopOnHover={false}
+              interval={5000}
+              transitionTime={100}
+            >
+              {data.map(({ image, id }) => (
+                <Grid key={id} padded style={{ height: '100%' }}>
+                  <Grid.Row centered className="clear-padding-y" style={{ height: '100%' }}>
+                    <Grid.Column
+                      className="clear-padding-x"
+                      width="3"
+                      textAlign="center"
+                      verticalAlign="middle"
+                    >
+                      <Image src={image} fluid verticalAlign="middle" />
+                    </Grid.Column>
+                  </Grid.Row>
+                </Grid>
+              ))}
+            </Carousel>
           </Grid.Column>
         </Grid.Row>
         <Grid.Row centered style={{ paddingTop: '2rem' }}>
           <Grid.Column
-            style={{ color: 'blue' }}
-            className="clear-padding-x"
+            className="clear-padding-x blue-color"
             computer="10"
             tablet="12"
             mobile="15"
