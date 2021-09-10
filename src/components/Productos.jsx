@@ -2,11 +2,12 @@ import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import {
-  Grid, Header, Image, Placeholder,
+  Grid, Header, Image,
 } from 'semantic-ui-react';
 import Layout from './Layout';
 
 function ProductImage({ id, imagenPrincipal }) {
+  // eslint-disable-next-line no-unused-vars
   const [loading, setLoading] = useState(true);
   return (
     <Grid.Column
@@ -16,14 +17,6 @@ function ProductImage({ id, imagenPrincipal }) {
       mobile="7"
       textAlign="center"
     >
-      {
-        loading
-        && (
-          <Placeholder fluid style={{ height: '30vh' }}>
-            <Placeholder.Image />
-          </Placeholder>
-        )
-      }
       <Image
         as={Link}
         to={`/producto/${id}`}
