@@ -1,14 +1,12 @@
-import React, { } from 'react';
+import React, { useState } from 'react';
 import '../semantic/semantic.min.css';
 import {
-  Grid, Image, Header,
+  Grid, Image, Header, Transition,
 } from 'semantic-ui-react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import Layout from '../components/Layout';
-
-const prefixStatic = '/exmex';
-// const prefixStatic = '';
+import { prefixStatic } from '../constants';
 
 const data = [
   {
@@ -42,7 +40,9 @@ const data = [
 ];
 
 function Home() {
-  // const [loading, setLoading] = useState(true);
+  const [visible, setVisible] = useState(true);
+  const [visible2, setVisible2] = useState(true);
+
   return (
     <Layout>
       <Grid padded>
@@ -65,8 +65,13 @@ function Home() {
               showThumbs={false}
               useKeyboardArrows
               stopOnHover={false}
-              interval={5000}
-              transitionTime={100}
+              interval={3000}
+              onChange={async () => {
+                await setVisible(false);
+                await setVisible2(true);
+                await setVisible(true);
+              }}
+              transitionTime={0}
             >
               {data.map(({ image, id }) => (
                 <Grid key={id} padded style={{ height: '100%' }}>
@@ -77,7 +82,14 @@ function Home() {
                       textAlign="center"
                       verticalAlign="middle"
                     >
-                      <Image src={image} fluid verticalAlign="middle" />
+                      <Transition
+                        animation="scale"
+                        onComplete={() => setVisible2(false)}
+                        duration={{ hide: 1000, show: 2000 }}
+                        visible={visible && visible2}
+                      >
+                        <Image src={image} fluid verticalAlign="middle" />
+                      </Transition>
                     </Grid.Column>
                   </Grid.Row>
                 </Grid>

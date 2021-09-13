@@ -1,5 +1,5 @@
-const prefixStatic = '/exmex';
-// const prefixStatic = '';
+const { prefixStatic } = require('./constants');
+
 const data = {
   productos: [
     {

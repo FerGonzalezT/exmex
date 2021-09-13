@@ -22,7 +22,7 @@
 .ui.menu {
   display: flex;
   margin: 1rem 0;
-  font-family: 'Montserrat', 'Avenir-Light', 'Avenir', sans-serif;
+  font-family: 'Avenir', 'Avenir-Light', 'Avenir', sans-serif;
   background: #FFFFFF;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);

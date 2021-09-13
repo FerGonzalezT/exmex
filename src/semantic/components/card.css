@@ -151,7 +151,7 @@
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  font-family: 'Montserrat', 'Avenir-Light', 'Avenir', sans-serif;
+  font-family: 'Avenir', 'Avenir-Light', 'Avenir', sans-serif;
   color: rgba(0, 0, 0, 0.85);
 }
 

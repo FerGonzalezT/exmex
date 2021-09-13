@@ -128,7 +128,7 @@
 .ui.items > .item > .content > .header {
   display: inline-block;
   margin: -0.21425em 0 0;
-  font-family: 'Montserrat', 'Avenir-Light', 'Avenir', sans-serif;
+  font-family: 'Avenir', 'Avenir-Light', 'Avenir', sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
 }
