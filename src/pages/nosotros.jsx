@@ -1,5 +1,6 @@
 /* eslint-disable max-len */
 import React, { } from 'react';
+import { Helmet } from 'react-helmet';
 import {
   Grid, Image, Header,
 } from 'semantic-ui-react';
@@ -9,6 +10,12 @@ import backgroundImage from '../images/fondo_quienes_somos.jpg';
 function About() {
   return (
     <Layout>
+      <Helmet>
+        {/* General tags */}
+        <title>EXMEX - Nosotros</title>
+        <meta name="description" content="En EXMEX nuestra misión es ser una empresa dedicada a la fabricación de equipos de la más alta calidad para satisfacer las necesidades de nuestros clientes dentro del sector restaurantero, juguerías, hotelero y comedores industriales, donde cada comprador este satisfecho en la adquisición de su producto." />
+        {/* <meta name="image" content={image} /> */}
+      </Helmet>
       <Grid padded>
         <Grid.Row className="clear-padding-y">
           <Grid.Column

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
 import React from 'react';
 import {
   Grid, Header, Embed,
@@ -13,6 +14,15 @@ function ProductDetail({ pageContext }) {
   } = producto;
   return (
     <Layout>
+      <Helmet>
+        {/* General tags */}
+        <title>{nombreProducto}</title>
+        <meta
+          name="description"
+          content={descripcion}
+        />
+        {/* <meta name="image" content={image} /> */}
+      </Helmet>
       <Grid className="cover-background" style={{ backgroundImage: `url(${imagenFondo})`, backgroundSize: '100%' }} padded>
         <Grid.Row centered>
           <Grid.Column

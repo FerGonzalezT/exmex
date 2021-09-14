@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import {
@@ -38,6 +39,23 @@ function Products({ pageContext }) {
   const { productos } = pageContext;
   return (
     <Layout>
+      <Helmet>
+        {/* General tags */}
+        <title>EXMEX - Productos</title>
+        <meta
+          name="description"
+          content={[
+            'EXTRACTOR PARA JUGO DE ZANAHORIA Y LEGUMBRES EN ACERO INOXIDABLE', 'EXTRACTOR PARA JUGO DE ZANAHORIA Y LEGUMBRES EN ALUMINIO',
+            'EXTRACTOR PARA JUGO DE ZANAHORIA Y LEGUMBRES AUTOMÁTICO DE EXPULSIÓN AUTOMÁTICA DE BAGAZO',
+            'EXPRIMIDOR DE JUGOS PARA CÍTRICOS EN ACERO INOXIDABLE',
+            'EXPRIMIDOR DE JUGOS PARA CÍTRICOS EN ALUMINIO',
+            'LICUADORA EN ACERO INOXIDABLE 3L',
+            'LICUADORA EN ACERO INOXIDABLE 5L',
+            'TRITURADOR PARA HIELO D-6',
+          ].join('\n')}
+        />
+        {/* <meta name="image" content={image} /> */}
+      </Helmet>
       <Grid padded>
         <Grid.Row centered>
           <Grid.Column

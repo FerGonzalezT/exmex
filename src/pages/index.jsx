@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import '../semantic/semantic.min.css';
 import {
   Grid, Image, Header, Transition,
@@ -45,6 +46,12 @@ function Home() {
 
   return (
     <Layout>
+      <Helmet>
+        {/* General tags */}
+        <title>EXMEX</title>
+        <meta name="description" content="Exmex, la excelencia en calidad de equipos industriales para tu negocio, los cuales brindan una alta producción para jugos naturales, hielo triturado y salsas en corto tiempo." />
+        {/* <meta name="image" content={image} /> */}
+      </Helmet>
       <Grid padded>
         <Grid.Row
           centered

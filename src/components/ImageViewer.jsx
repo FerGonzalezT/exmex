@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import {
-  Grid, Image,
+  Grid, Image, Modal,
 } from 'semantic-ui-react';
 
 function ProductImage({ setCurrentImage, image }) {
@@ -32,6 +32,7 @@ ProductImage.propTypes = {
 
 function ImageViewer({ images }) {
   const [currentImage, setCurrentImage] = useState(images[0]);
+  const [open, setOpen] = React.useState(false);
   // eslint-disable-next-line no-unused-vars
   const [loading, setLoading] = useState(true);
   return (
@@ -56,10 +57,21 @@ function ImageViewer({ images }) {
           <Image
             src={currentImage}
             fluid
+            style={{ cursor: 'pointer' }}
+            onClick={() => setOpen(true)}
             onLoad={() => setLoading(false)}
           />
         </Grid.Column>
       </Grid.Row>
+      <Modal
+        closeIcon
+        onClose={() => setOpen(false)}
+        open={open}
+      >
+        <Modal.Content image>
+          <Image src={currentImage} wrapped />
+        </Modal.Content>
+      </Modal>
     </Grid>
   );
 }

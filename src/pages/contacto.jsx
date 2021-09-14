@@ -1,4 +1,5 @@
 import React, { } from 'react';
+import { Helmet } from 'react-helmet';
 import {
   Grid, Image, Embed,
 } from 'semantic-ui-react';
@@ -12,6 +13,12 @@ import Youtube from '../images/youtube.png';
 function Contact() {
   return (
     <Layout>
+      <Helmet>
+        {/* General tags */}
+        <title>EXMEX - Contacto</title>
+        <meta name="description" content="Dirección: Dionisio Rodríguez no. 900, Col. San Felipe de Jesús, C.P. 44700, Guadalajara, Jalisco" />
+        {/* <meta name="image" content={image} /> */}
+      </Helmet>
       <Grid padded>
         <Grid.Row className="clear-padding-y">
           <Grid.Column className="clear-padding-x" width="16" textAlign="center">
