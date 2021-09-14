@@ -65,7 +65,7 @@ function Home() {
               showThumbs={false}
               useKeyboardArrows
               stopOnHover={false}
-              interval={3000}
+              interval={4000}
               onChange={async () => {
                 await setVisible(false);
                 await setVisible2(true);
@@ -78,14 +78,16 @@ function Home() {
                   <Grid.Row centered className="clear-padding-y" style={{ height: '100%' }}>
                     <Grid.Column
                       className="clear-padding-x"
-                      width="3"
+                      computer="3"
+                      tablet="5"
+                      mobile="6"
                       textAlign="center"
                       verticalAlign="middle"
                     >
                       <Transition
                         animation="scale"
                         onComplete={() => setVisible2(false)}
-                        duration={{ hide: 1000, show: 2000 }}
+                        duration={{ hide: 1000, show: 3000 }}
                         visible={visible && visible2}
                       >
                         <Image src={image} fluid verticalAlign="middle" />

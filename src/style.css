@@ -129,3 +129,11 @@ nav a {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}

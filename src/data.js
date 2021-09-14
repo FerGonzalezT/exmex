@@ -3,6 +3,113 @@ const { prefixStatic } = require('./constants');
 const data = {
   productos: [
     {
+      id: 8,
+      producto: 'EXTRACTOR PARA JUGO DE ZANAHORIA Y LEGUMBRES EN ACERO INOXIDABLE',
+      descripcion: [
+        'Extractor para jugo de zanahoria y legumbres cuenta con su filtro colador en acero inoxidable grado alimenticio el cual brinda una capacidad de producción más de 50 lts/hr.',
+        'El disco cortador en acero inoxidable es de gran rendimiento gracias a sus 16 líneas de navajas que garantizan la mayor extracción del jugo de los vegetales.',
+        'Su practico diseño facilita su limpieza e higiene.',
+        'Su motor de 187 watt de potencia garantiza un ahorro de energía eléctrica.',
+      ],
+      tipoEspecificacion: [
+        {
+          titulo: 'Especificaciones del extractor:',
+          especificaciones: [
+            { especificacion: 'ALTURA', valor: '34 cm' },
+            { especificacion: 'DIÁMETRO', valor: '27 cm' },
+            { especificacion: 'PESO', valor: '18 Kg' },
+          ],
+        },
+        {
+          titulo: 'Especificaciones del motor',
+          especificaciones: [
+            { especificacion: 'CLASE', valor: 'Tiempo Continuo' },
+            { especificacion: 'CONSUMO DE CORRIENTE', valor: '4,5 A' },
+            { especificacion: 'RPM', valor: '3500' },
+            { especificacion: 'POTENCIA', valor: '127 CA' },
+            { especificacion: 'CP', valor: '1/4' },
+            { especificacion: 'HZ', valor: '60' },
+            { especificacion: 'FACES', valor: '1' },
+          ],
+        },
+      ],
+      imagenPrincipal: `${prefixStatic}/Producto8-principal.jpg`,
+      imagenFondo: `${prefixStatic}/Producto8-fondo.png`,
+      video: '',
+      imagenes: [`${prefixStatic}/Producto8-1.jpg`, `${prefixStatic}/Producto8-2.jpg`, `${prefixStatic}/Producto8-3.jpg`, `${prefixStatic}/Producto8-4.jpg`, `${prefixStatic}/Producto8-5.jpg`],
+    },
+    {
+      id: 4,
+      producto: 'EXTRACTOR PARA JUGO DE ZANAHORIA Y LEGUMBRES EN ALUMINIO',
+      descripcion: [
+        'Extractor para jugo de zanahoria y legumbres cuenta con su filtro colador en acero inoxidable grado alimenticio el cual brinda una capacidad de producción más de 50 lts/hr.',
+        'El disco cortador en acero inoxidable es de gran rendimiento gracias a sus 16 líneas de navajas que garantizan la mayor extracción del jugo de los vegetales.',
+        'Cuenta con un practico diseño que facilita su limpieza e higiene. Su motor de 187 watt de potencia garantiza un ahorro de energía eléctrica.',
+      ],
+      tipoEspecificacion: [
+        {
+          titulo: 'Especificaciones del extractor:',
+          especificaciones: [
+            { especificacion: 'ALTURA', valor: '36 cm' },
+            { especificacion: 'DIÁMETRO', valor: '25 cm' },
+            { especificacion: 'PESO', valor: '12 Kg' },
+          ],
+        },
+        {
+          titulo: 'Especificaciones del motor',
+          especificaciones: [
+            { especificacion: 'CLASE', valor: 'Tiempo Continuo' },
+            { especificacion: 'CONSUMO DE CORRIENTE', valor: '4,5 A' },
+            { especificacion: 'RPM', valor: '3540' },
+            { especificacion: 'POTENCIA', valor: '187 WATT' },
+            { especificacion: 'VOLTS', valor: '127' },
+            { especificacion: 'CP', valor: '1/4' },
+            { especificacion: 'HZ', valor: '60' },
+            { especificacion: 'FACES', valor: '1' },
+          ],
+        },
+      ],
+      imagenPrincipal: `${prefixStatic}/Producto4-principal.jpg`,
+      imagenFondo: `${prefixStatic}/Producto4-fondo.png`,
+      video: '',
+      imagenes: [`${prefixStatic}/Producto4-1.jpg`],
+    },
+    {
+      id: 3,
+      producto: 'EXTRACTOR PARA JUGO DE ZANAHORIA Y LEGUMBRES AUTOMÁTICO DE EXPULSIÓN AUTOMÁTICA DE BAGAZO',
+      descripcion: [
+        'Filtro colador en acero inoxidable grado alimenticio. Garantiza su uso continúo debido a que por un lado saca la fibra de la zanahoria y por otro lado se extrae todo el jugo. Disco cortador en acero inoxidable de gran rendimiento gracias a sus 16 líneas de navajas que garantizan la mayor extracción de jugo de los vegetales.',
+        'Su practico diseño facilita su limpieza e higiene. Su motor de 187 watt de potencia garantiza un ahorro de energía eléctrica.',
+      ],
+      tipoEspecificacion: [
+        {
+          titulo: 'Especificaciones del extractor:',
+          especificaciones: [
+            { especificacion: 'ALTURA', valor: '42 cm' },
+            { especificacion: 'DIÁMETRO', valor: '27 cm' },
+            { especificacion: 'PESO', valor: '13.75 Kg' },
+          ],
+        },
+        {
+          titulo: 'Especificaciones del motor',
+          especificaciones: [
+            { especificacion: 'CLASE', valor: 'Tiempo Continuo' },
+            { especificacion: 'CONSUMO DE CORRIENTE', valor: '4,5 A' },
+            { especificacion: 'RPM', valor: '3540' },
+            { especificacion: 'POTENCIA', valor: '187 WATT' },
+            { especificacion: 'VOLTS', valor: '127' },
+            { especificacion: 'CP', valor: '1/4' },
+            { especificacion: 'HZ', valor: '60' },
+            { especificacion: 'FACES', valor: '1' },
+          ],
+        },
+      ],
+      imagenPrincipal: `${prefixStatic}/Producto3-principal.jpg`,
+      imagenFondo: `${prefixStatic}/Producto3-fondo.png`,
+      video: '',
+      imagenes: [`${prefixStatic}/Producto3-1.jpg`, `${prefixStatic}/Producto3-2.jpg`, `${prefixStatic}/Producto3-3.jpg`, `${prefixStatic}/Producto3-4.jpg`],
+    },
+    {
       id: 1,
       producto: 'EXPRIMIDOR DE JUGOS PARA CÍTRICOS EN ACERO INOXIDABLE',
       descripcion: [
@@ -69,77 +176,6 @@ const data = {
       imagenFondo: `${prefixStatic}/Producto2-fondo.png`,
       video: '',
       imagenes: [`${prefixStatic}/Producto2-1.jpg`, `${prefixStatic}/Producto2-2.jpg`],
-    },
-    {
-      id: 3,
-      producto: 'EXTRACTOR PARA JUGO DE ZANAHORIA Y LEGUMBRES AUTOMÁTICO DE EXPULSIÓN AUTOMÁTICA DE BAGAZO',
-      descripcion: [
-        'Filtro colador en acero inoxidable grado alimenticio. Garantiza su uso continúo debido a que por un lado saca la fibra de la zanahoria y por otro lado se extrae todo el jugo. Disco cortador en acero inoxidable de gran rendimiento gracias a sus 16 líneas de navajas que garantizan la mayor extracción de jugo de los vegetales.',
-        'Su practico diseño facilita su limpieza e higiene. Su motor de 187 watt de potencia garantiza un ahorro de energía eléctrica.',
-      ],
-      tipoEspecificacion: [
-        {
-          titulo: 'Especificaciones del extractor:',
-          especificaciones: [
-            { especificacion: 'ALTURA', valor: '42 cm' },
-            { especificacion: 'DIÁMETRO', valor: '27 cm' },
-            { especificacion: 'PESO', valor: '13.75 Kg' },
-          ],
-        },
-        {
-          titulo: 'Especificaciones del motor',
-          especificaciones: [
-            { especificacion: 'CLASE', valor: 'Tiempo Continuo' },
-            { especificacion: 'CONSUMO DE CORRIENTE', valor: '4,5 A' },
-            { especificacion: 'RPM', valor: '3540' },
-            { especificacion: 'POTENCIA', valor: '187 WATT' },
-            { especificacion: 'VOLTS', valor: '127' },
-            { especificacion: 'CP', valor: '1/4' },
-            { especificacion: 'HZ', valor: '60' },
-            { especificacion: 'FACES', valor: '1' },
-          ],
-        },
-      ],
-      imagenPrincipal: `${prefixStatic}/Producto3-principal.jpg`,
-      imagenFondo: `${prefixStatic}/Producto3-fondo.png`,
-      video: '',
-      imagenes: [`${prefixStatic}/Producto3-1.jpg`, `${prefixStatic}/Producto3-2.jpg`, `${prefixStatic}/Producto3-3.jpg`, `${prefixStatic}/Producto3-4.jpg`],
-    },
-    {
-      id: 4,
-      producto: 'EXTRACTOR PARA JUGO DE ZANAHORIA Y LEGUMBRES EN ALUMINIO',
-      descripcion: [
-        'Extractor para jugo de zanahoria y legumbres cuenta con su filtro colador en acero inoxidable grado alimenticio el cual brinda una capacidad de producción más de 50 lts/hr.',
-        'El disco cortador en acero inoxidable es de gran rendimiento gracias a sus 16 líneas de navajas que garantizan la mayor extracción del jugo de los vegetales.',
-        'Cuenta con un practico diseño que facilita su limpieza e higiene. Su motor de 187 watt de potencia garantiza un ahorro de energía eléctrica.',
-      ],
-      tipoEspecificacion: [
-        {
-          titulo: 'Especificaciones del extractor:',
-          especificaciones: [
-            { especificacion: 'ALTURA', valor: '36 cm' },
-            { especificacion: 'DIÁMETRO', valor: '25 cm' },
-            { especificacion: 'PESO', valor: '12 Kg' },
-          ],
-        },
-        {
-          titulo: 'Especificaciones del motor',
-          especificaciones: [
-            { especificacion: 'CLASE', valor: 'Tiempo Continuo' },
-            { especificacion: 'CONSUMO DE CORRIENTE', valor: '4,5 A' },
-            { especificacion: 'RPM', valor: '3540' },
-            { especificacion: 'POTENCIA', valor: '187 WATT' },
-            { especificacion: 'VOLTS', valor: '127' },
-            { especificacion: 'CP', valor: '1/4' },
-            { especificacion: 'HZ', valor: '60' },
-            { especificacion: 'FACES', valor: '1' },
-          ],
-        },
-      ],
-      imagenPrincipal: `${prefixStatic}/Producto4-principal.jpg`,
-      imagenFondo: `${prefixStatic}/Producto4-fondo.png`,
-      video: '',
-      imagenes: [`${prefixStatic}/Producto4-1.jpg`],
     },
     {
       id: 5,
@@ -260,42 +296,6 @@ const data = {
       imagenFondo: `${prefixStatic}/Producto7-fondo.png`,
       video: '',
       imagenes: [`${prefixStatic}/Producto7-1.jpg`, `${prefixStatic}/Producto7-2.jpg`, `${prefixStatic}/Producto7-3.jpg`, `${prefixStatic}/Producto7-4.jpg`],
-    },
-    {
-      id: 8,
-      producto: 'EXTRACTOR PARA JUGO DE ZANAHORIA Y LEGUMBRES EN ACERO INOXIDABLE',
-      descripcion: [
-        'Extractor para jugo de zanahoria y legumbres cuenta con su filtro colador en acero inoxidable grado alimenticio el cual brinda una capacidad de producción más de 50 lts/hr.',
-        'El disco cortador en acero inoxidable es de gran rendimiento gracias a sus 16 líneas de navajas que garantizan la mayor extracción del jugo de los vegetales.',
-        'Su practico diseño facilita su limpieza e higiene.',
-        'Su motor de 187 watt de potencia garantiza un ahorro de energía eléctrica.',
-      ],
-      tipoEspecificacion: [
-        {
-          titulo: 'Especificaciones del extractor:',
-          especificaciones: [
-            { especificacion: 'ALTURA', valor: '34 cm' },
-            { especificacion: 'DIÁMETRO', valor: '27 cm' },
-            { especificacion: 'PESO', valor: '18 Kg' },
-          ],
-        },
-        {
-          titulo: 'Especificaciones del motor',
-          especificaciones: [
-            { especificacion: 'CLASE', valor: 'Tiempo Continuo' },
-            { especificacion: 'CONSUMO DE CORRIENTE', valor: '4,5 A' },
-            { especificacion: 'RPM', valor: '3500' },
-            { especificacion: 'POTENCIA', valor: '127 CA' },
-            { especificacion: 'CP', valor: '1/4' },
-            { especificacion: 'HZ', valor: '60' },
-            { especificacion: 'FACES', valor: '1' },
-          ],
-        },
-      ],
-      imagenPrincipal: `${prefixStatic}/Producto8-principal.jpg`,
-      imagenFondo: `${prefixStatic}/Producto8-fondo.png`,
-      video: '',
-      imagenes: [`${prefixStatic}/Producto8-1.jpg`, `${prefixStatic}/Producto8-2.jpg`, `${prefixStatic}/Producto8-3.jpg`, `${prefixStatic}/Producto8-4.jpg`, `${prefixStatic}/Producto8-5.jpg`],
     },
   ],
 };

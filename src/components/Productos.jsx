@@ -19,6 +19,7 @@ function ProductImage({ id, imagenPrincipal }) {
     >
       <Image
         as={Link}
+        className="zoom"
         to={`/producto/${id}`}
         src={imagenPrincipal}
         onLoad={() => setLoading(false)}

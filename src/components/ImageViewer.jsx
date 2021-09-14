@@ -38,9 +38,9 @@ function ImageViewer({ images }) {
     <Grid padded>
       <Grid.Row centered>
         <Grid.Column
-          computer="3"
-          tablet="5"
-          mobile="3"
+          computer="2"
+          tablet="2"
+          mobile="2"
         >
           {
             images.map((image) => (
@@ -49,9 +49,9 @@ function ImageViewer({ images }) {
           }
         </Grid.Column>
         <Grid.Column
-          computer="11"
-          tablet="11"
-          mobile="13"
+          computer="14"
+          tablet="14"
+          mobile="14"
         >
           <Image
             src={currentImage}

@@ -16,23 +16,23 @@ function ProductDetail({ pageContext }) {
       <Grid className="cover-background" style={{ backgroundImage: `url(${imagenFondo})`, backgroundSize: '100%' }} padded>
         <Grid.Row centered>
           <Grid.Column
-            computer="7"
-            tablet="15"
-            mobile="15"
+            computer="8"
+            tablet="16"
+            mobile="16"
           >
             <ImageViewer images={imagenes} />
           </Grid.Column>
           <Grid.Column
-            computer="9"
-            tablet="15"
-            mobile="15"
+            computer="8"
+            tablet="16"
+            mobile="16"
           >
             <Grid>
               <Grid.Row>
                 <Grid.Column
                   computer="16"
-                  tablet="15"
-                  mobile="15"
+                  tablet="16"
+                  mobile="16"
                 >
                   <Header>{nombreProducto}</Header>
                 </Grid.Column>
@@ -40,8 +40,8 @@ function ProductDetail({ pageContext }) {
               <Grid.Row>
                 <Grid.Column
                   computer="8"
-                  tablet="15"
-                  mobile="15"
+                  tablet="16"
+                  mobile="16"
                   textAlign="justified"
                 >
                   {
@@ -51,9 +51,9 @@ function ProductDetail({ pageContext }) {
                   }
                 </Grid.Column>
                 <Grid.Column
-                  computer="7"
-                  tablet="15"
-                  mobile="15"
+                  computer="8"
+                  tablet="16"
+                  mobile="16"
                 >
                   {
                     tipoEspecificacion.map(({ titulo, especificaciones }) => (

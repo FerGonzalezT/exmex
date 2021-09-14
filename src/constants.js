@@ -1,4 +1,4 @@
 module.exports = {
-  prefixStatic: '/exmex',
-  // prefixStatic: '',
+  // prefixStatic: '/exmex',
+  prefixStatic: '',
 };

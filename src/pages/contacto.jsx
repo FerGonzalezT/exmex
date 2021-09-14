@@ -43,7 +43,7 @@ function Contact() {
             <Embed
               placeholder=""
               active
-              url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.9266663526905!2d-103.3250947858284!3d20.67256228619238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1861249b445%3A0xa894b1efbdea4a22!2sEXMEX!5e0!3m2!1ses!2smx!4v1629269134542!5m2!1ses!2smx"
+              url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.92666635269!2d-103.32509478507335!3d20.67256228619241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b18604fee517%3A0x501a43d5b48a2b7f!2sC.%20Dionisio%20Rodr%C3%ADguez%20900%2C%20Oblatos%2C%2044700%20Guadalajara%2C%20Jal.!5e0!3m2!1ses!2smx!4v1631597834944!5m2!1ses!2smx"
               iframe={{
                 allowfullscreen: true,
                 loading: 'lazy',
@@ -66,19 +66,19 @@ function Contact() {
           >
             <p>
               <strong>Teléfonos: </strong>
-              01 (33) 36 01 70 95 034 / 33 37 24 62 49
+              33 37 24 62 49 / 33 36 17 95 34
             </p>
             <p>
               <strong>E-Mail: </strong>
-              <a rel="noreferrer" href="mailto:exmex1@hotmail.com" target="_blank">exmex1@hotmail.com</a>
+              <a rel="noreferrer" href="mailto:lazanahoria_1@hotmail.com" target="_blank">lazanahoria_1@hotmail.com</a>
               {' '}
               /
               {' '}
-              <a rel="noreferrer" href="mailto:lazanahoria_1@hotmail.com" target="_blank">lazanahoria_1@hotmail.com</a>
+              <a rel="noreferrer" href="mailto:exmex1@hotmail.com" target="_blank">exmex1@hotmail.com</a>
             </p>
             <p>
               <strong>Dirección: </strong>
-              Dionisio Rodríguez no. 900, Col. San Felipe de Jesús, C.P. 44380, Guadalajara, Jalisco
+              Dionisio Rodríguez no. 900, Col. San Felipe de Jesús, C.P. 44700, Guadalajara, Jalisco
             </p>
             <p>
               <strong>Horarios de atención: </strong>

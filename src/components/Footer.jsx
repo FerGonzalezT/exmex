@@ -47,8 +47,8 @@ function Footer() {
       </Grid.Row>
       <Grid.Row>
         <Grid.Column className="clear-padding-x" width="16" textAlign="center">
-          Dionisio Rodríguez no. 900, Col. San Felipe de Jesús, C.P. 44380, Guadalajara, Jalisco
-          Tel: 01 (33) 36017095034
+          Dionisio Rodríguez no. 900, Col. San Felipe de Jesús, C.P. 44700, Guadalajara, Jalisco
+          Tel: 33 36 17 95 34
         </Grid.Column>
       </Grid.Row>
     </Grid>
