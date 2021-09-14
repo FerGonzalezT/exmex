@@ -26,7 +26,7 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #FFFFFF;
-  font-family: 'Avenir', 'Avenir-Light', 'Avenir', sans-serif;
+  font-family: 'Avenir', 'Avenir-Black', sans-serif;
   font-size: 16px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
@@ -42,7 +42,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Avenir', 'Avenir-Light', 'Avenir', sans-serif;
+  font-family: 'Avenir-Black', 'Avenir', sans-serif;
   line-height: 1.28571429em;
   margin: calc(2rem - 0.1428571428571429em) 0 1rem;
   font-weight: bold;
@@ -185,6 +185,16 @@ body .ui.inverted:not(.dimmer)::-webkit-scrollbar-thumb:hover {
         Global Overrides
 *******************************/
 
+@font-face {
+  font-family: 'Avenir-Black';
+  src: url('themes/default/assets/fonts/Avenir-Black.otf');
+  src: url('themes/default/assets/fonts/Avenir-Black.otf') format('opentype'), url('themes/default/assets/fonts/Avenir-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url('themes/default/assets/fonts/AvenirRoman.otf');
+  src: url('themes/default/assets/fonts/AvenirRoman.otf') format('opentype');
+}
 
 
 /*******************************
