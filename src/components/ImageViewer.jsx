@@ -37,7 +37,7 @@ function ImageViewer({ images }) {
   const [loading, setLoading] = useState(true);
   return (
     <Grid padded>
-      <Grid.Row centered>
+      <Grid.Row centered verticalAlign="middle">
         <Grid.Column
           computer="2"
           tablet="2"

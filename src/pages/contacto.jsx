@@ -121,7 +121,7 @@ function Contact() {
               size="mini"
               spaced
               style={{ cursor: 'pointer' }}
-              onClick={() => window.open('')}
+              onClick={() => window.open('https://www.youtube.com/channel/UCK9--Vi-6hvB9-0y0qjwQpA/featured')}
             />
           </Grid.Column>
         </Grid.Row>

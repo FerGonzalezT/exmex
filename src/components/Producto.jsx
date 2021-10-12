@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import React from 'react';
+import { Link } from 'gatsby';
 import {
-  Grid, Header, Embed,
+  Grid, Header, Embed, Button,
 } from 'semantic-ui-react';
 import ImageViewer from './ImageViewer';
 import Layout from './Layout';
@@ -29,6 +30,7 @@ function ProductDetail({ pageContext }) {
             computer="8"
             tablet="16"
             mobile="16"
+            verticalAlign="middle"
           >
             <ImageViewer images={imagenes} />
           </Grid.Column>
@@ -36,6 +38,7 @@ function ProductDetail({ pageContext }) {
             computer="8"
             tablet="16"
             mobile="16"
+            verticalAlign="middle"
           >
             <Grid>
               <Grid.Row>
@@ -43,8 +46,9 @@ function ProductDetail({ pageContext }) {
                   computer="16"
                   tablet="16"
                   mobile="16"
+                  textAlign="left"
                 >
-                  <Header>{nombreProducto}</Header>
+                  <Header size="large">{nombreProducto}</Header>
                 </Grid.Column>
               </Grid.Row>
               <Grid.Row>
@@ -56,22 +60,30 @@ function ProductDetail({ pageContext }) {
                 >
                   {
                     descripcion.map((description) => (
-                      <p>{description}</p>
+                      <p style={{ fontSize: '18px' }}>{description}</p>
                     ))
                   }
+                  <Button
+                    as={Link}
+                    labelPosition="left"
+                    to="/productos"
+                    icon="left chevron"
+                    content="Regresar"
+                  />
                 </Grid.Column>
                 <Grid.Column
                   computer="8"
                   tablet="16"
                   mobile="16"
+                  textAlign="justified"
                 >
                   {
                     tipoEspecificacion.map(({ titulo, especificaciones }) => (
                       <div style={{ marginBottom: '1rem' }}>
-                        <Header className="clear-margin-bottom" size="tiny">{titulo}</Header>
+                        <Header className="clear-margin-bottom" size="small">{titulo}</Header>
                         {
                           especificaciones.map(({ especificacion, valor }) => (
-                            <p className="clear-margin-y">{`${especificacion}: ${valor}`}</p>
+                            <p className="clear-margin-y" style={{ fontSize: '18px' }}>{`${especificacion}: ${valor}`}</p>
                           ))
                         }
                       </div>

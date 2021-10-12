@@ -7,16 +7,17 @@ import {
 } from 'semantic-ui-react';
 import Layout from './Layout';
 
-function ProductImage({ id, imagenPrincipal }) {
+function ProductImage({ id, imagenPrincipal, palabraClave }) {
   // eslint-disable-next-line no-unused-vars
   const [loading, setLoading] = useState(true);
   return (
     <Grid.Column
       key={id}
-      computer="2"
+      computer="3"
       tablet="5"
       mobile="7"
       textAlign="center"
+      verticalAlign="bottom"
     >
       <Image
         as={Link}
@@ -26,6 +27,9 @@ function ProductImage({ id, imagenPrincipal }) {
         onLoad={() => setLoading(false)}
         fluid
       />
+      <Header style={{ marginBottom: '1em' }}>
+        {palabraClave}
+      </Header>
     </Grid.Column>
   );
 }
@@ -33,6 +37,7 @@ function ProductImage({ id, imagenPrincipal }) {
 ProductImage.propTypes = {
   id: PropTypes.number.isRequired,
   imagenPrincipal: PropTypes.string.isRequired,
+  palabraClave: PropTypes.string.isRequired,
 };
 
 function Products({ pageContext }) {
@@ -70,8 +75,8 @@ function Products({ pageContext }) {
         </Grid.Row>
         <Grid.Row centered>
           {
-            productos.map(({ id, imagenPrincipal }) => (
-              <ProductImage id={id} imagenPrincipal={imagenPrincipal} />
+            productos.map(({ id, imagenPrincipal, palabraClave }) => (
+              <ProductImage id={id} imagenPrincipal={imagenPrincipal} palabraClave={palabraClave} />
             ))
           }
         </Grid.Row>

@@ -23,6 +23,7 @@ function Header() {
             <Link to="/">Inicio</Link>
             <Link to="/nosotros">¿Quiénes somos?</Link>
             <Link to="/productos">Nuestros Productos</Link>
+            <Link to="/refacciones">Refacciones</Link>
             <Link to="/contacto">Contacto</Link>
             {/* <Link to="/blog">Blog</Link>
             <Link to="/dynamic">Dynamic</Link> */}

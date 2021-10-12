@@ -12,31 +12,31 @@ import { prefixStatic } from '../constants';
 const data = [
   {
     id: 1,
-    image: `${prefixStatic}/producto_home_1.jpg`,
+    image: `${prefixStatic}/producto_home_1.png`,
   },
   {
     id: 2,
-    image: `${prefixStatic}/producto_home_2.jpg`,
+    image: `${prefixStatic}/producto_home_2.png`,
   },
   {
     id: 3,
-    image: `${prefixStatic}/producto_home_3.jpg`,
+    image: `${prefixStatic}/producto_home_3.png`,
   },
   {
     id: 4,
-    image: `${prefixStatic}/producto_home_4.jpg`,
+    image: `${prefixStatic}/producto_home_4.png`,
   },
   {
     id: 5,
-    image: `${prefixStatic}/producto_home_5_6.jpg`,
+    image: `${prefixStatic}/producto_home_5_6.png`,
   },
   {
     id: 6,
-    image: `${prefixStatic}/producto_home_7.jpg`,
+    image: `${prefixStatic}/producto_home_7.png`,
   },
   {
     id: 7,
-    image: `${prefixStatic}/producto_home_8.jpg`,
+    image: `${prefixStatic}/producto_home_8.png`,
   },
 ];
 

@@ -7,6 +7,11 @@ exports.createPages = ({ actions }) => {
     component: require.resolve('./src/components/Productos.jsx'),
     context: { productos: data.productos },
   });
+  createPage({
+    path: '/refacciones',
+    component: require.resolve('./src/components/Refacciones.jsx'),
+    context: { refacciones: data.refacciones },
+  });
   data.productos.forEach((producto) => {
     createPage({
       path: `/producto/${producto.id}`,
