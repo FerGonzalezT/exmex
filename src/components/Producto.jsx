@@ -46,9 +46,9 @@ function ProductDetail({ pageContext }) {
                   computer="16"
                   tablet="16"
                   mobile="16"
-                  textAlign="left"
+                  textAlign="center"
                 >
-                  <Header size="large">{nombreProducto}</Header>
+                  <Header size="medium">{nombreProducto}</Header>
                 </Grid.Column>
               </Grid.Row>
               <Grid.Row>

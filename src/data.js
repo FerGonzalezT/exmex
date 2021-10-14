@@ -36,7 +36,7 @@ const data = {
       ],
       imagenPrincipal: `${prefixStatic}/Producto8-principal.png`,
       imagenFondo: `${prefixStatic}/Producto8-fondo.png`,
-      video: '',
+      video: 'https://www.youtube.com/embed/P6pYUwMHcBQ',
       imagenes: [`${prefixStatic}/Producto8-1.png`, `${prefixStatic}/Producto8-2.png`, `${prefixStatic}/Producto8-3.png`, `${prefixStatic}/Producto8-4.png`],
     },
     {
@@ -216,7 +216,7 @@ const data = {
       ],
       imagenPrincipal: `${prefixStatic}/Producto5-principal.png`,
       imagenFondo: `${prefixStatic}/Producto5-fondo.png`,
-      video: '',
+      video: 'https://www.youtube.com/embed/4PZwICY0J6c',
       imagenes: [`${prefixStatic}/Producto5-1.png`, `${prefixStatic}/Producto5-2.png`],
     },
     {
@@ -258,7 +258,7 @@ const data = {
       ],
       imagenPrincipal: `${prefixStatic}/Producto6-principal.png`,
       imagenFondo: `${prefixStatic}/Producto6-fondo.png`,
-      video: '',
+      video: 'https://www.youtube.com/embed/4PZwICY0J6c',
       imagenes: [`${prefixStatic}/Producto6-1.png`, `${prefixStatic}/Producto6-2.png`],
     },
     {
@@ -302,7 +302,7 @@ const data = {
       ],
       imagenPrincipal: `${prefixStatic}/Producto7-principal.png`,
       imagenFondo: `${prefixStatic}/Producto7-fondo.png`,
-      video: '',
+      video: 'https://www.youtube.com/embed/6j2UK2OZDuk',
       imagenes: [`${prefixStatic}/Producto7-1.png`, `${prefixStatic}/Producto7-2.png`, `${prefixStatic}/Producto7-3.png`, `${prefixStatic}/Producto7-4.png`],
     },
   ],

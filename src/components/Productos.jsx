@@ -13,7 +13,7 @@ function ProductImage({ id, imagenPrincipal, palabraClave }) {
   return (
     <Grid.Column
       key={id}
-      computer="3"
+      computer="2"
       tablet="5"
       mobile="7"
       textAlign="center"
@@ -27,7 +27,7 @@ function ProductImage({ id, imagenPrincipal, palabraClave }) {
         onLoad={() => setLoading(false)}
         fluid
       />
-      <Header style={{ marginBottom: '1em' }}>
+      <Header size="small" style={{ marginBottom: '1em' }}>
         {palabraClave}
       </Header>
     </Grid.Column>
