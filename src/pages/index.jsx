@@ -115,9 +115,9 @@ function Home() {
             textAlign="center"
           >
             <Header color="blue" size="huge" style={{ paddingBottom: '0.5rem' }}>
-              40 AÑOS FABRICANDO CALIDAD Y PRESTIGIO
+              47 AÑOS FABRICANDO CALIDAD Y PRESTIGIO
             </Header>
-            <p>
+            <p style={{ color: 'black' }}>
               Exmex, la excelencia en calidad de equipos industriales para tu negocio, los cuales brindan una alta producción para jugos naturales, hielo triturado y salsas en corto tiempo.
               Enviamos nuestros productos a cualquier parte de la república mexicana con la mejor atención y servicio.
             </p>

@@ -258,7 +258,7 @@ const data = {
       ],
       imagenPrincipal: `${prefixStatic}/Producto6-principal.png`,
       imagenFondo: `${prefixStatic}/Producto6-fondo.png`,
-      video: 'https://www.youtube.com/embed/4PZwICY0J6c',
+      video: 'https://www.youtube.com/embed/pHm959Heobc',
       imagenes: [`${prefixStatic}/Producto6-1.png`, `${prefixStatic}/Producto6-2.png`],
     },
     {
