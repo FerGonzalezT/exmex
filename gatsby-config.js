@@ -1,7 +1,7 @@
 module.exports = {
-  pathPrefix: '/exmex',
+  pathPrefix: '/',
   siteMetadata: {
-    siteUrl: 'https://fergonzalezt.github.io',
+    siteUrl: 'https://exmex.com.mx/',
     title: 'exmex',
   },
   plugins: ['gatsby-plugin-react-helmet'],
