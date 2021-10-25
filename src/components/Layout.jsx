@@ -13,7 +13,7 @@ function Layout({ children }) {
           <Header />
         </Grid.Column>
       </Grid.Row>
-      <Grid.Row className="clear-padding-y" style={{ minHeight: '57vh' }}>
+      <Grid.Row className="clear-padding-y" style={{ minHeight: '68vh' }}>
         <Grid.Column className="clear-padding-x" width={16}>
           {children}
         </Grid.Column>
